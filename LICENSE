@@ -1,0 +1,183 @@
+SURGE PROPRIETARY LICENSE AGREEMENT
+Version 1.0, July 2026
+
+Copyright (c) 2026 Harry-Not-Potter. All rights reserved.
+
+================================================================================
+                            DEFINITIONS
+================================================================================
+
+"Software" means the Surge traffic generator application, including all 
+associated binary files, documentation, configuration files, and any related 
+materials provided by the Licensor.
+
+"Licensor" means Harry-Not-Potter, the copyright holder and owner of the 
+Software.
+
+"Licensee" means any individual or entity that downloads, installs, or uses 
+the Software.
+
+"Binary Form" means the compiled, executable version of the Software as 
+distributed in .deb packages or other executable formats.
+
+"Source Code" means the human-readable source code of the Software, including 
+but not limited to C++ source files, header files, build scripts, and 
+configuration files used to compile the Software.
+
+"Attribution" means a clear and visible statement that the Software was 
+created by the Licensor, including the Licensor's name and a link to the 
+project website, placed in:
+    a) Any documentation, screenshots, or videos featuring the Software
+    b) Any public presentations or demonstrations of the Software
+    c) Any redistribution packages or repositories
+    d) Any derivative configurations or scripts that use the Software
+
+"Reverse Engineering" means any activity aimed at discovering the Source Code, 
+underlying ideas, algorithms, or structure of the Software, including but not 
+limited to:
+    a) Disassembly, decompilation, or decryption of the Binary Form
+    b) Analysis of network protocols, file formats, or data structures
+    c) Debugging, tracing, or monitoring the Software's execution
+    d) Memory dumping or runtime code analysis
+    e) Using debuggers, tracers, or packet analyzers on the Software
+    f) Any other method of deriving Source Code from Binary Form
+
+"Permitted Use" means using the Software in Binary Form for its intended 
+purpose as a traffic generation tool, subject to the Attribution requirement.
+
+================================================================================
+                          GRANT OF LICENSE
+================================================================================
+
+1. BINARY USAGE LICENSE
+
+The Licensor grants the Licensee a worldwide, non-exclusive, non-transferable, 
+royalty-free license to:
+
+    a) Download and install the Software in Binary Form
+    b) Run and use the Software for any lawful purpose
+    c) Distribute unmodified copies of the original .deb package
+    d) Create backup copies of the Binary Form
+
+2. ATTRIBUTION REQUIREMENT
+
+The Licensee MUST provide proper Attribution to the Licensor in the 
+following cases:
+
+    a) When distributing the Software: Include the notice 
+       "This distribution includes Surge traffic generator by Harry-Not-Potter 
+       (https://github.com/Harry-Not-Potter/surge)" in the distribution 
+       package, README file, or equivalent documentation.
+
+    b) When using the Software in public work: If the Software is used to 
+       generate results presented in publications, presentations, blog posts, 
+       videos, or any public medium, the Licensee must credit the Licensor 
+       with the statement: "Traffic generation powered by Surge by 
+       Harry-Not-Potter".
+
+    c) When creating scripts or configurations that rely on the Software: 
+       Include a comment or documentation line: "Requires Surge by 
+       Harry-Not-Potter (https://github.com/Harry-Not-Potter/surge)".
+
+    d) In derivative deployment configurations: Any Docker images, VM images, 
+       or cloud templates that include the Software must retain the original 
+       copyright notices and include attribution in the image metadata or 
+       description.
+
+3. RESTRICTIONS
+
+The Licensee is EXPRESSLY PROHIBITED from:
+
+    a) Reverse Engineering the Software (as defined above)
+    b) Modifying, adapting, or creating derivative works of the Binary Form
+    c) Removing, altering, or obscuring any proprietary notices or labels
+    d) Removing or obscuring required Attribution
+    e) Claiming authorship or ownership of the Software
+    f) Distributing modified versions of the Binary Form
+    g) Extracting, copying, or distributing any Source Code
+    h) Using the Software to develop competing products
+    i) Renting, leasing, or sublicensing the Software
+    j) Using automated tools to analyze the Software's behavior
+
+4. INTELLECTUAL PROPERTY
+
+The Software is protected by copyright laws and international treaties. The 
+Licensor retains all rights, title, and interest in and to the Software, 
+including all intellectual property rights. The Licensee acknowledges that 
+no ownership rights are transferred by this License. The Licensor's name, 
+logo, and trademarks may only be used for Attribution purposes as specified 
+in this License.
+
+5. MORAL RIGHTS
+
+The Licensee acknowledges the Licensor's moral right to be identified as the 
+author of the Software. Any use of the Software that fails to provide proper 
+Attribution constitutes an infringement of these moral rights.
+
+================================================================================
+                           WARRANTY DISCLAIMER
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING 
+FROM THE USE OF THE SOFTWARE.
+
+================================================================================
+                         LIMITATION OF LIABILITY
+================================================================================
+
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY SPECIAL, INCIDENTAL, 
+INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, 
+DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR 
+INABILITY TO USE THE SOFTWARE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGES.
+
+================================================================================
+                         TERMINATION
+================================================================================
+
+This License is effective until terminated. The License will terminate 
+automatically without notice from the Licensor if the Licensee fails to 
+comply with any provision of this License, including the Attribution 
+requirements. Upon termination, the Licensee must destroy all copies of 
+the Software in their possession.
+
+================================================================================
+                         SEVERABILITY
+================================================================================
+
+If any provision of this License is held to be unenforceable, such provision 
+shall be reformed only to the extent necessary to make it enforceable, and 
+the remaining provisions shall remain in full force and effect.
+
+================================================================================
+                         GOVERNING LAW
+================================================================================
+
+This License shall be governed by and construed in accordance with the laws 
+of the Russian Federation. Any disputes arising from this License shall be 
+subject to the exclusive jurisdiction of the courts of the Russian Federation.
+
+================================================================================
+                         CONTACT INFORMATION
+================================================================================
+
+For licensing inquiries, commercial use, or permissions beyond the scope of 
+this license, please contact:
+
+Harry-Not-Potter
+harrynotpotter17th@gmail.com
+https://github.com/Harry-Not-Potter/surge
+
+================================================================================
+                         ACKNOWLEDGMENT
+================================================================================
+
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU ACKNOWLEDGE 
+THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND AGREE TO BE BOUND BY 
+ITS TERMS, INCLUDING THE REQUIREMENT TO PROVIDE ATTRIBUTION TO THE LICENSOR.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT INSTALL OR USE THE SOFTWARE.
