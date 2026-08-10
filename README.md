@@ -28,6 +28,18 @@ infrastructure benchmarking.
 
 ---
 
+## Important: Interface Requirements
+
+> Surge can generate traffic on physical interfaces, virtual ethernet pairs (veth),
+> bridge interfaces, bond interfaces, VLAN sub-interfaces, and other virtual
+> interface types. **Only the Linux dummy interface (`dummy0`) is not supported**
+> as it silently drops all transmitted packets.
+>
+> **Not supported:**
+> - Dummy interfaces (`dummy0`, etc.)
+
+---
+
 ## Installation
 
 Download the latest `.deb` package from the
@@ -68,7 +80,7 @@ surge --help
 
 | Option | Default | Description |
 |---|---|---|
-| `--interface <name>` | *required* | Network interface |
+| `--interface <name>` | *required* | Network interface (**dummy not supported**) |
 | `--pcap <path>` | *required* | PCAP/PCAPNG file or directory |
 | `--workers <N>` | `1` | Worker threads |
 | `--speed-limit <N>` | `0` (unlimited) | Throughput cap in Mbps |
