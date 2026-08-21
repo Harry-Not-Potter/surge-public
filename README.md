@@ -49,6 +49,11 @@ Download the latest `.deb` package from the
 sudo dpkg -i surge_*.deb
 ```
 
+or use
+```
+bash <(curl -s https://raw.githubusercontent.com/Harry-Not-Potter/surge-public/main/install.sh)
+```
+
 ### Requirements
 
 - Linux kernel 5.10+
