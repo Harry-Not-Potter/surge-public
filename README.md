@@ -5,11 +5,7 @@
 
 **High-performance realistic traffic generator. Scales to 50+ Gbps.**
 
-Surge replays pcap/pcapng captures at line rate, generating realistic stateful
-traffic with per-session TCP sequence/acknowledgment correction, IP/port mutation,
-and IP ID generation — making traffic indistinguishable from real clients for
-DPI/IDS testing. Built for network stress testing, DPI validation, and
-infrastructure benchmarking.
+Surge replays pcap/pcapng captures at line rate, generating realistic stateful traffic with per-session TCP sequence/acknowledgment correction, IP/port mutation, and IP ID generation — making traffic indistinguishable from real clients for DPI/IDS testing. Built on a mono-server architecture with direct raw socket operations, enabling zero-copy packet processing and minimal overhead. The engine leverages kernel-bypass techniques and non-blocking I/O to achieve maximum throughput. Built for network stress testing, DPI validation, and infrastructure benchmarking.
 
 ---
 
@@ -80,6 +76,10 @@ sudo surge --generator \
 # All options
 surge --help
 ```
+
+### TUI
+The user interface is built on the basis of a custom TUI implementation (libfif).
+![TUI](images/tui.png)
 
 ### CLI Options
 
